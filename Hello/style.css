@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+#heading {
+    color: chartreuse;
+}
+.group1 {
+    color: white;
+}
+#data {
+    display: block;
+}
