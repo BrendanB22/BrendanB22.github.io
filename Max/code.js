@@ -4,11 +4,11 @@ function onclick () {
    let second = document.getElementById("second").valueAsNumber;
    let third = document.getElementById("third").valueAsNumber;
    let max;
-   if (first > second > third) {
+   if (first > second && first > third) {
     max = first
-   } else if (second > third) {
+   } else if (second > first && second > third) {
     max = second
-   } else {
+   } else if (third > first && third > second){
     max = third
    }
    document.getElementById("result").innerHTML = "The max is " + max + ".";
